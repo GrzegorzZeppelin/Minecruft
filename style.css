@@ -198,11 +198,16 @@ ol > li > ul > li:hover > a
 
 /*                  ARTICLE                 */
 
+.article:first-child {
+    margin-top: 0px;
+}
+
 .article {
     margin-left: auto;
     margin-right: auto;
     border: 5px solid #222;
     background-color: rgb(41, 41, 41);
+    margin-top: 50px;
 }
 
 .aTitle {
