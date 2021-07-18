@@ -1,18 +1,17 @@
-// let photo = document.getElementById("photo");
+let number = Math.floor(Math.random()*3+1);
+let photo = document.querySelector('.photo');
 
-// let photoAmount = 3;
-// let number = Math.floor(Math.random()*photoAmount);
+function photoChanging() {
 
-// function photoChanging() {
+    number++;
+    if(number>3) {
+        number = 1;
+    }
+    let img = '<img src="img/block' + number + '.jpg">';
+    photo.innerHTML = img;
+    
+    setTimeout(photoChanging, 1500);
 
-//     number++;
-//     if(number==photoAmount) {
-//         number = 1;
-//     }
+}
 
-//     photo.innerHTML = '<img src="img/block1.jpg">'
-
-
-// }
-
-// window.addEventListener("load", photoChanging );
+window.addEventListener("load", photoChanging );
