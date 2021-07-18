@@ -27,8 +27,6 @@ body
 
 .logo
 {
-    background: rgb(15,221,233);
-    background: linear-gradient(360deg, rgba(15,221,233,1) 0%, rgba(50,179,217,1) 1%, rgba(24,218,209,1) 99%, rgba(17,203,221,1) 100%, rgba(11,207,231,1) 100%);
     padding: 20px;
     font-size: 100px;
     margin-left: auto;
@@ -39,7 +37,7 @@ body
     font-family: 'Bebas Neue', cursive;
     text-shadow: 2px 2px 5px black;
     letter-spacing: 3px;
-    
+    animation: logoAnim 30s linear;
 }
 
 .nav
@@ -66,23 +64,19 @@ body
 }
 
 .fb:hover {
-    background-color: #4668b3;
-    cursor: pointer;
+    background-color: #4668b3
 }
 
 .yt:hover {
-    background-color: #cf281c;
-    cursor: pointer;
+    background-color: #cf281c
 }
 
 .tw:hover {
-    background-color: #5b89ec;
-    cursor: pointer;
+    background-color: #5b89ec
 }
 
 .gp:hover {
-    background-color: #d46e3f;
-    cursor: pointer;
+    background-color: #d46e3f
 }
 
 .socials
@@ -250,11 +244,12 @@ ol > li > ul > li:hover > a
     align-items: right;
     text-align: right;
     justify-content: right;
-    width: 30%;
     display: block;
     float: right;
     margin: 20px;
     border: 5px solid white;
+    height: 320px;
+    width: 320px;
 }
 
 .paragraph::first-letter {
@@ -293,3 +288,20 @@ ol > li > ul > li:hover > a
 }
 
 /*                  ARTICLE                 */
+
+
+/*                  ANIMATIONS                  */
+
+@keyframes logoAnim {
+
+    0% { background: rgb(16, 188, 197); }
+    10% { background-color: rgb(15,221,233); }
+    20% { background: rgb(16, 188, 197); }
+    30% { background-color: rgb(15,221,233); }
+    40% { background: rgb(16, 188, 197); }
+    50% { background-color: rgb(15,221,233); }
+    70% { background-color: rgba(255, 255, 255, 0); }
+
+}
+
+/*                  ANIMATIONS                  */
