@@ -1,12 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body
 {
     background-image: url(img/mine1.png );
-    /* background-size: cover;
-    background-repeat: no-repeat; */
+    background-size: cover;
     color: white;
     font-family: 'Lato', sans-serif;;
     font-size: 20px;
-    margin: 0 !important;
 }
 
 .container
@@ -46,7 +49,7 @@ body
 }
 .content
 {
-    width: 1000px;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -106,7 +109,9 @@ body
     text-align: center;
     background-color: #222222;
     padding: 30px;
+    margin-bottom: -40px;
 }
+
 
 ol
 {
