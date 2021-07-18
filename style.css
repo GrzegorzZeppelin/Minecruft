@@ -1,8 +1,8 @@
 body
 {
     background-image: url(img/mine1.png );
-    background-size: cover;
-    background-repeat: repeat;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
     color: white;
     font-family: 'Lato', sans-serif;;
     font-size: 20px;
@@ -22,12 +22,14 @@ body
 
 .logo
 {
-    width: 500px;
+    width: 100%;
     font-size: 48px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .nav
@@ -69,54 +71,35 @@ body
     margin-left: auto;
 }
 
-.fb
+
+.tile
 {
     width: 250px;
     height: 155px;
     float: left;
 }
 
-.fb:hover
+.tile:hover
 {
     background-color: #4668b3
 }
 
-.yt
-{
-    width: 250px;
-    height: 155px;
-    float: left;
+.fb:hover {
+    background-color: #4668b3
 }
 
-.yt:hover
-{
-    background-color: #d94348
+.yt:hover {
+    background-color: #cf281c
 }
 
-.tw
-{
-    width: 250px;
-    height: 155px;
-    float: left;
+.tw:hover {
+    background-color: #5b89ec
 }
 
-.tw:hover
-{
-    background-color: #3095d3
+.gp:hover {
+    background-color: #d46e3f
 }
 
-.gplus
-{
-    width: 250px;
-    height: 155px;
-    float: left;
-
-}
-
-.gplus:hover
-{
-    background-color: #d95333
-}
 
 .footer
 {
