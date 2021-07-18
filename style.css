@@ -58,11 +58,7 @@ body
     width: 250px;
     height: 155px;
     float: left;
-}
-
-.tile:hover
-{
-    background-color: #4668b3
+    transition: 0.2s all ease-in-out;
 }
 
 .fb:hover {
@@ -129,6 +125,7 @@ ol > li
 {
     float: left;
     width: 200px;
+    transition: 0.2s all ease-in-out;
 }
 
 ol > li:hover
@@ -157,6 +154,7 @@ ol > li:hover > ul
 
 ol > li > ul > li
 {
+    transition: 0.2s all ease-in-out;
     background-color: rgb(2, 80, 148);
     position: relative;
     z-index: 100;
