@@ -66,19 +66,23 @@ body
 }
 
 .fb:hover {
-    background-color: #4668b3
+    background-color: #4668b3;
+    cursor: pointer;
 }
 
 .yt:hover {
-    background-color: #cf281c
+    background-color: #cf281c;
+    cursor: pointer;
 }
 
 .tw:hover {
-    background-color: #5b89ec
+    background-color: #5b89ec;
+    cursor: pointer;
 }
 
 .gp:hover {
-    background-color: #d46e3f
+    background-color: #d46e3f;
+    cursor: pointer;
 }
 
 .socials
